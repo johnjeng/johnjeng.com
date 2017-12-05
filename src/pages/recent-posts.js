@@ -1,6 +1,5 @@
 import React from "react"
 import Link from "gatsby-link"
-import Nav from "./nav.js"
 
 export default () =>
   <div>

@@ -2,6 +2,10 @@
   "name": "j3-personal-site",
   "description": "My Personal website with blog",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/johnjeng/johnjeng.com.git"
+  },
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
