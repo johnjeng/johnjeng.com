@@ -1,3 +1,11 @@
 import React from "react"
 
-export default () => <div>Hello world!</div>
+import Link from "gatsby-link"
+
+export default () =>
+  <div>
+    <h1>Hi, I'm John</h1>
+    This website is under construction using gatsby.js
+    <br/>
+    Here's an <Link to='/about'>About</Link> page!
+  </div>
