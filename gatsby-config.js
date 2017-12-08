@@ -1,5 +1,29 @@
 module.exports = {
+  siteMetadata: {
+    title: `J3`,
+  },
   plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+        {
+          resolve: "gatsby-remark-external-links",
+          options: {
+            target: "_blank",
+            rel: "nofollow"
+          }
+        }
+        ]
+      }
+    },
     {
       resolve: `gatsby-plugin-typography`,
       options: {
@@ -7,5 +31,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-catch-links`,
+    `gatsby-plugin-react-helmet`,
   ],
 }
