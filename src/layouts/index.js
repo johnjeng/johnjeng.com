@@ -30,13 +30,11 @@ export default ({ children, data }) => (
         </h3>
       </Link>
       <ul style={{ listStyle: `none`, float: `right`, margin:`0px` }}>
-        <ListLink to="/">Home</ListLink>
         <ListLink to="/about/">About</ListLink>
         <ListLink to="/recent-posts/">Blog Posts</ListLink>
         <IconLink to="mailto:john.jeng5@gmail.com" name="envelope" />
         <IconLink to="https://facebook.com/johnjeffjeng" name="facebook" />
         <IconLink to="https://instagram.com/johnjeffjeng/" name="instagram" />
-        <IconLink to="https://m.me/johnjeffjeng" name="message" />
       </ul>
     </header>
     {children()}
