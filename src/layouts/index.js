@@ -33,7 +33,6 @@ export default ({ children, data }) => (
         <ListLink to="/">Home</ListLink>
         <ListLink to="/about/">About</ListLink>
         <ListLink to="/recent-posts/">Blog Posts</ListLink>
-        <ListLink to="/contact/">Contact</ListLink>
         <IconLink to="mailto:john.jeng5@gmail.com" name="envelope" />
         <IconLink to="https://facebook.com/johnjeffjeng" name="facebook" />
         <IconLink to="https://instagram.com/johnjeffjeng/" name="instagram" />
