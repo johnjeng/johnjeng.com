@@ -1,21 +1,21 @@
-import React from "react"
+import React from "react";
 
-import Link from "gatsby-link"
+import Link from "gatsby-link";
 
-export default () =>
+export default () => (
   <div>
-    <h3>Hi, I'm John</h3> Blogging is one of my 
-    <Link
-      to="/blog-posts/2018-goals/"
-    >
-      {" "}goals for 2018{" "}
-    </Link>
-    so here we go!
+    <h3>Get results that matter</h3>
+    
+    Website under construction. 
 
-    <br/>
-    <br/>
-    <small>
-      This website is under construction using
-      {" "}<a href="https://www.gatsbyjs.org/">gatsbyjs</a>.
-    </small>
+    <div>
+      I get a small percentage of sales through links to{" "}
+      <a
+        target="_blank"
+        href="https://www.amazon.com/?&_encoding=UTF8&tag=johnjeng-20&linkCode=ur2&linkId=2f956fa00a2a4dbb46dd162d2e5b3baf&camp=1789&creative=9325"
+      >
+        Amazon
+      </a>.
+    </div>
   </div>
+);

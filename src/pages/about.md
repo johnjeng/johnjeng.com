@@ -3,6 +3,5 @@ title: "About"
 type : "page"
 ---
 
-I write software, swing dance, and travel sometimes.
+Hi, I'm John.
 
-Looking for private lessions? Shoot me an email at [john.jeng5@gmail.com](mailto:john.jeng5@gmail.com) or hit me up on [messenger](https://m.me/johnjeffjeng).
