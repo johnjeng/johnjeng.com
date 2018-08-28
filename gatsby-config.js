@@ -24,14 +24,9 @@ module.exports = {
         ]
       }
     },
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography.js`,
-      },
-    },
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-typescript`,
   ],
 }
