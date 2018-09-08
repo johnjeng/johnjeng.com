@@ -1,6 +1,9 @@
 import * as React from "react";
 import styled from "styled-components";
 import { Nav } from "../templates/nav-bar";
+
+import {ContactForm} from "../components/ContactForm"
+
 const SignUp = styled.button``;
 
 const EmailSignUp = () => {
@@ -14,9 +17,14 @@ const EmailSignUp = () => {
   );
 };
 
+const Article = styled.div`
+  margin: auto;
+  width: 80%;
+`
+
 export default function PricingPage() {
   return (
-    <div className="subpage">
+    <Article className="subpage">
       <Nav/>
       <h3>Adaptive In Person Training</h3>
       Don't settle for fitting into someone's template. Get training programs
@@ -25,8 +33,9 @@ export default function PricingPage() {
       <br />
       <br />
       <SignUp>Chat about lifestyle integration</SignUp>
-      Starting at $80/hr,
-    </div>
+      <br />
+      Starting at $80/hr
+    </Article>
   );
 }
 

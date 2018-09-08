@@ -4,13 +4,12 @@ import styled from "styled-components";
 
 const Subpage = styled.div`
   display: grid;
-  grid-template-columns: 1;
   grid-template-rows: 20rem;
   grid-gap: 10px;
 `
 const Article = styled.div`
-  margin: auto;
-  width: 80%;
+  margin: 3rem auto;
+  width: 60%;
 `
 
 export default ({ data }) => {
@@ -19,7 +18,7 @@ export default ({ data }) => {
     <Subpage className="subpage">
       <Nav />
       <Article className="article">
-        <h1>{post.frontmatter.title}</h1>
+        <h2>{post.frontmatter.title}</h2>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </Article>
     </Subpage>
