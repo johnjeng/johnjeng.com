@@ -4,14 +4,17 @@ import styled from "styled-components";
 
 const Subpage = styled.div`
   display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 20rem;
+  grid-gap: 10px;
 `
 const Article = styled.div`
-
+  margin: auto;
+  width: 80%;
 `
 
 export default ({ data }) => {
   const post = data.markdownRemark;
-  console.log("rendering som md?");
   return (
     <Subpage className="subpage">
       <Nav />

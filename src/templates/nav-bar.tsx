@@ -44,7 +44,7 @@ export function Nav() {
           id="nav"
           style={{ listStyle: `none`, float: `right`, margin: `0px` }}
         >
-          <ListLink to="/about/">About</ListLink>
+          <ListLink to="/getting-started/">About</ListLink>
           <ListLink to="/pricing/">Pricing</ListLink>
           {/* <ListLink to="/recent-posts/">Blog</ListLink> */}
           <ListLink to="/personal/">Personal</ListLink>

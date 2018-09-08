@@ -47,7 +47,7 @@ export default () => (
         </div>
 
         <footer>
-          <a href="#" className="button">Get Started</a>
+          <a href="./getting-started/" className="button">Get Started</a>
         </footer>
       </div>
     </section>
