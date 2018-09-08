@@ -1,15 +1,25 @@
 import React from "react";
 import { Nav } from "./nav-bar";
+import styled from "styled-components";
+
+const Subpage = styled.div`
+  display: grid;
+`
+const Article = styled.div`
+
+`
 
 export default ({ data }) => {
   const post = data.markdownRemark;
   console.log("rendering som md?");
   return (
-    <div className="subpage" style={{maxWidth:"800px"}}>
+    <Subpage className="subpage">
       <Nav />
-      <h1>{post.frontmatter.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
-    </div>
+      <Article className="article">
+        <h1>{post.frontmatter.title}</h1>
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      </Article>
+    </Subpage>
   );
 };
 

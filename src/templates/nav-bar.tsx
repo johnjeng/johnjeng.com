@@ -46,7 +46,8 @@ export function Nav() {
         >
           <ListLink to="/about/">About</ListLink>
           <ListLink to="/pricing/">Pricing</ListLink>
-          <ListLink to="/recent-posts/">Blog</ListLink>
+          {/* <ListLink to="/recent-posts/">Blog</ListLink> */}
+          <ListLink to="/personal/">Personal</ListLink>
           <IconLink to="https://facebook.com/johnjeffjeng" name="facebook" />
           <IconLink to="https://instagram.com/johnjeffjeng/" name="instagram" />
           <IconLink to="mailto:john.jeng5@gmail.com" name="envelope" />
