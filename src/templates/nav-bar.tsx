@@ -44,10 +44,10 @@ export function Nav() {
           id="nav"
           style={{ listStyle: `none`, float: `right`, margin: `0px` }}
         >
-          <ListLink to="/getting-started/">About</ListLink>
+          <ListLink to="/getting-started/">Getting Started</ListLink>
           {/* <ListLink to="/pricing/">Pricing</ListLink> */ }
           {/* <ListLink to="/recent-posts/">Blog</ListLink> */}
-          <ListLink to="/personal/">Personal</ListLink>
+          <ListLink to="/personal/">Meet John</ListLink>
           <IconLink to="https://facebook.com/johnjeffjeng" name="facebook" />
           <IconLink to="https://instagram.com/johnjeffjeng/" name="instagram" />
           <IconLink to="mailto:john.jeng5@gmail.com" name="envelope" />

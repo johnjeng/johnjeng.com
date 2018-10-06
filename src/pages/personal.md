@@ -3,12 +3,12 @@ title: "About Me"
 type : "page"
 ---
 
-Hi, I'm John
+Hi, I'm John, a human with many interests, hobbies, passions, and values. 
 
-I'm a human with many split interests, hobbies, passions, and values. 
+I believe everyone ought to have a chance to live their best lives.
 
-### Here are some highlights
-- Personal Trainer and owner of [J3 Personal Training](https://johnjeng.com) (this site).
-- VP of Operations for Sagemath. Inc, the company that makes [Cocalc](https://cocalc.com).
-- Lindy Hop Instructor
+
+### Here my cliff notes
+- I've been coaching people since 2011
+- I'm part of the company that makes [Cocalc](https://cocalc.com)!
 - Board game and movement enthusiast

@@ -29,52 +29,49 @@ export default () => (
           <div>
             <span className="icon fa-comment-o"></span>
             <h3>Assess</h3>
-            <p>Understand goals and life restrictions</p>
+            <p>Understand goals and hurdles</p>
           </div>
 
           <div>
             <span className="icon fa-link"></span>
             <h3>Integrate</h3>
-            <p>Add non-disruptive lifestyle changes</p>
+            <p>Add sustainable lifestyle changes</p>
           </div>
 
           <div>
             <span className="icon fa-line-chart"></span>
-            <h3>Profit</h3>
-            <p>Track your progress to reach your goals</p>
+            <h3>Iterate</h3>
+            <p>Track progress, tweak, and improve</p>
           </div>
 
         </div>
 
         <footer>
-          <a href="./getting-started/" className="button">Get Started</a>
+          <a href="./getting-started/" className="button">Get Started Today</a>
         </footer>
       </div>
     </section>
-{/*
+
+
     <section id="three" className="wrapper align-center">
       <div className="inner">
         <div className="flex flex-2">
           <article>
-            <div className="image round">
-              <img src="images/pic01.jpg" alt="Pic 01" />
-            </div>
             <header>
-              <h3>Lorem ipsum<br /> dolor amet nullam</h3>
+              <h3>You've got a lot on your plate. <br/> Don't let fitness be another headache.</h3>
             </header>
-            <p>Morbi in sem quis dui placerat ornare. Pellentesquenisi<br />euismod in, pharetra a, ultricies in diam sed arcu. Cras<br />consequat  egestas augue vulputate.</p>
+              I'll filter down the endless possibilities for you. Dumbells or barbells? 
+              Bands or Cables? How much cardio? Is this enough?
+
             <footer>
               <a href="#" className="button">Learn More</a>
             </footer>
           </article>
           <article>
-            <div className="image round">
-              <img src="images/pic02.jpg" alt="Pic 02" />
-            </div>
             <header>
-              <h3>Sed feugiat<br /> tempus adipicsing</h3>
+              <h3>Invest in your future self.</h3>
             </header>
-            <p>Pellentesque fermentum dolor. Aliquam quam lectus<br />facilisis auctor, ultrices ut, elementum vulputate, nunc<br /> blandit ellenste egestagus commodo.</p>
+              
             <footer>
               <a href="#" className="button">Learn More</a>
             </footer>
@@ -82,6 +79,6 @@ export default () => (
         </div>
       </div>
     </section>
-*/}
+
   </div>
 );
