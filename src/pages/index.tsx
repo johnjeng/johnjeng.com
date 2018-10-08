@@ -14,6 +14,7 @@ export const AmazonLink = () => {
   );
 };
 
+
 export default () => (
   <div>
     <Nav />

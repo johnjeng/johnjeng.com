@@ -5,10 +5,9 @@ type : "page"
 
 Hi, I'm John, a human with many interests, hobbies, passions, and values. 
 
-I believe everyone ought to have a chance to live their best lives.
-
-
-### Here my cliff notes
+### Some stuff about me
 - I've been coaching people since 2011
-- I'm part of the company that makes [Cocalc](https://cocalc.com)!
-- Board game and movement enthusiast
+- I help make and run [Cocalc](https://cocalc.com)!
+- You can catch me climbing at SBP or Lindy Hopping around Seattle
+- My favorite board games are deck builders. Dominion or Magic anyone?
+- I'm a [onebagger](https://www.reddit.com/r/onebag) when I travel. Even if it's months long.
