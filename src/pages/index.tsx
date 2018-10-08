@@ -16,7 +16,7 @@ export const AmazonLink = () => {
 
 export default () => (
   <div>
-    <Nav/>
+    <Nav />
 
     <section id="banner">
       <div className="inner">
@@ -25,60 +25,80 @@ export default () => (
         </header>
 
         <div className="flex ">
-
           <div>
-            <span className="icon fa-comment-o"></span>
+            <span className="icon fa-comment-o" />
             <h3>Assess</h3>
             <p>Understand goals and hurdles</p>
           </div>
 
           <div>
-            <span className="icon fa-link"></span>
+            <span className="icon fa-link" />
             <h3>Integrate</h3>
             <p>Add sustainable lifestyle changes</p>
           </div>
 
           <div>
-            <span className="icon fa-line-chart"></span>
+            <span className="icon fa-line-chart" />
             <h3>Iterate</h3>
             <p>Track progress, tweak, and improve</p>
           </div>
-
         </div>
 
         <footer>
-          <a href="./getting-started/" className="button">Get Started Today</a>
+          <a href="./getting-started/" className="button">
+            Get Started Today
+          </a>
         </footer>
       </div>
     </section>
 
-
     <section id="three" className="wrapper align-center">
-      <div className="inner">
-        <div className="flex flex-2">
+      <div className="inner" style={{maxWidth: "600px"}}>
           <article>
             <header>
-              <h3>You've got a lot on your plate. <br/> Don't let fitness be another headache.</h3>
+              <h3>Stop Putting it Off</h3>
             </header>
-              I'll filter down the endless possibilities for you. Dumbells or barbells? 
-              Bands or Cables? How much cardio? Is this enough?
+            <p>
+              You know you're supposed to be exercising or whatever. But there's
+              no issue yet. You're doing fine. That cheeseburger didn't do
+              anything. Heart disease is for old people. You can eat whatever
+              you want.
+            </p>
+
+            <p>
+              But <strong>you know better</strong>. Quality training helps{" "}
+              <strong>prevent all sorts of terrible things</strong>, like
+              decreasing bone density, loss of muscle mass, stroke, heart
+              attack, etc. they just don't happen to you... Yet.
+            </p>
+
+            <p>
+              Simply from an enjoyment perspective, <strong>start now</strong>.
+              Not in 5 years, not in 20. Start now when you have time to explore
+              and <strong>find the kind of training you enjoy</strong>.
+            </p>
+
+            <p>
+              Maybe you tried doing cardio by running on a treadmill and wanted
+              to kill yourself. Maybe you tried a rowing machine but threw out
+              your back so you swore that off. Maybe you heard that free weights
+              are dangerous or you'll bulk up too fast.
+            </p>
+
+            <p>
+              <strong>Whatever your hurdle is</strong> to leveling up your body,
+              we'll find a way around it.{" "}
+              <strong>We'll find something sustainable</strong> and worthwhile
+              to make sure you can keep eating that cheeseburger.
+            </p>
 
             <footer>
-              <a href="#" className="button">Learn More</a>
+              <a href="https://calendly.com/johnjeng/free-consultation/" target="_blank" className="button">
+                Chat over coffee
+              </a>
             </footer>
           </article>
-          <article>
-            <header>
-              <h3>Invest in your future self.</h3>
-            </header>
-              
-            <footer>
-              <a href="#" className="button">Learn More</a>
-            </footer>
-          </article>
-        </div>
       </div>
     </section>
-
   </div>
 );
