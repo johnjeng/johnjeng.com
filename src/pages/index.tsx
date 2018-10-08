@@ -69,7 +69,7 @@ export default () => (
             <p>
               But <strong>you know better</strong>. Quality training helps{" "}
               <strong>prevent all sorts of terrible things</strong>, like
-              easily broken bones, loss jar-opening-powers, stroke, heart
+              easily broken bones, loss of jar-opening-powers, stroke, heart
               attack, etc. they just haven't happened yet.
             </p>
 
