@@ -69,8 +69,8 @@ export default () => (
             <p>
               But <strong>you know better</strong>. Quality training helps{" "}
               <strong>prevent all sorts of terrible things</strong>, like
-              decreasing bone density, loss of muscle mass, stroke, heart
-              attack, etc. they just don't happen to you... Yet.
+              easily broken bones, loss jar-opening-powers, stroke, heart
+              attack, etc. they just haven't happened yet.
             </p>
 
             <p>
