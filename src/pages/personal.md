@@ -3,7 +3,7 @@ title: "About Me"
 type : "page"
 ---
 
-Hi, I'm John, a human with many interests, hobbies, passions, and values. 
+Hi, I'm John, a human with many interests, hobbies, and passions. 
 
 ### Some stuff about me
 - I've been coaching people since 2011
